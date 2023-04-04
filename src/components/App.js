@@ -7,8 +7,6 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <Link to='/color/blue'>Color</Link>
-      <Link to={`/calculator?num1=&num2=&op=`}>Calculator</Link>
       <AppRoutes />
     </BrowserRouter>
 

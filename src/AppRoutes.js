@@ -8,7 +8,7 @@ export const AppRoutes = () =>{
     return (
         <Routes>
             <Route path='/' element={<Index />} />
-            <Route path='/color/:colorname' element={<BackgroundColorChanger />} />
+            <Route path='/bgcolor/:colorname' element={<BackgroundColorChanger />} />
             <Route path='/calculator' element={<Calculator />} />
         </Routes>
     )
